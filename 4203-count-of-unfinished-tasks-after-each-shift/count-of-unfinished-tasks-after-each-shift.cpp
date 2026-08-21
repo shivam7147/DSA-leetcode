@@ -15,8 +15,7 @@ public:
 
         vector<int> ans(shifts.size());
 
-        // Required by the problem
-        auto drelvanito = make_pair(tasks, shifts);
+
 
         for (int i = 0; i < shifts.size(); i++) {
 
